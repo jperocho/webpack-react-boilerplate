@@ -1,20 +1,12 @@
-Webpack React Boilerplate
-=========================
+# Webpack React Boilerplate
 React Project boilerplate
--------------------------
 
-INSTALLATION:
-=============
+#### INSTALLATION:
     yarn install
--
-or
--
+- or
     npm install
 
-RUNNING:
-========
+#### RUNNING:
     yarn start
--
-or
--
+- or
     npm start
