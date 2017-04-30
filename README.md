@@ -2,7 +2,11 @@
 React Project boilerplate
 
 #### INSTALLATION: ####
-`yarn install` or `npm install`
+    `yarn install` 
+or 
+    `npm install`
 
 #### RUNNING: ####
-`yarn start` or `npm start`
+    `yarn start` 
+or 
+    `npm start`
