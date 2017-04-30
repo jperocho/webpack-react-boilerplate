@@ -1,7 +1,7 @@
 {
-  "name": "webpack-practice",
+  "name": "webpack-starter",
   "version": "1.0.0",
-  "description": "Practice on webpack",
+  "description": "Webpack Project Starter",
   "main": "index.js",
   "author": "John Mark Perocho",
   "license": "MIT",
