@@ -1,1 +1,7 @@
-console.log('Testingclear again testing');
+import React from 'react';
+import ReactDOM from 'react-dom';
+
+ReactDOM.render(
+    <h1>Hello World React Template</h1>,
+    document.querySelector('.container')
+);
