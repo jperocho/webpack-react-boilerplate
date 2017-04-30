@@ -9,4 +9,5 @@
     "node_module": true,
     ".vscode": true
   },
+  "editor.tabCompletion": true,
 }
