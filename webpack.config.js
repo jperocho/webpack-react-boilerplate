@@ -1,17 +1,19 @@
+const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const desc = require('./package').description;
+
 
 module.exports = {
     entry: {
         app: './src/index.js'
     },
     output: {
-        path: __dirname,
-        publicPath: 'dist',
+        path: path.resolve(__dirname,'dist'),
         filename: 'bundle.js'
     },
     devServer: {
         stats: 'errors-only',
+        open: true
     },
     module: {
         rules: [
