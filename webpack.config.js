@@ -13,14 +13,15 @@ module.exports = {
     },
     devServer: {
         stats: 'errors-only',
-        open: true
+        open: true,
+        historyApiFallback: true // Supports React Router Error "Cannot GET"
     },
     module: {
         rules: [
-            { 
-                test: /\.js$/, 
-                exclude: /node_modules/, 
-                loader: 'babel-loader' 
+            {
+                test: /\.js$/,
+                exclude: /node_modules/,
+                loader: 'babel-loader'
             }
         ]
     },
