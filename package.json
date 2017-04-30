@@ -1,0 +1,11 @@
+{
+  "name": "webpack-practice",
+  "version": "1.0.0",
+  "description": "Practice on webpack",
+  "main": "index.js",
+  "author": "John Mark Perocho",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^2.4.1"
+  }
+}
