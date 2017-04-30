@@ -5,13 +5,14 @@ React Project boilerplate
 
 INSTALLATION:
 =============
-    yarn install 
+    yarn install
 -
 or
 -
     npm install
 
 RUNNING:
+========
     yarn start
 -
 or
