@@ -9,12 +9,13 @@ module.exports = {
     },
     output: {
         path: path.resolve(__dirname,'dist'),
+        publicPath: '/', // Fixed the missing bundle.js on React Router
         filename: 'bundle.js'
     },
     devServer: {
         stats: 'errors-only',
         open: true,
-        historyApiFallback: true // Supports React Router Error "Cannot GET"
+        historyApiFallback: true // Fixed Error "Cannot GET" on React Router
     },
     module: {
         rules: [
