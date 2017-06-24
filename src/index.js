@@ -1,9 +1,17 @@
-import React from 'react';
+import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 
 const css = require('./app.scss');
 
+class App extends Component {
+  render() {
+    <div>
+      <h4>Hello World React Template</h4>
+    </div>
+  }
+}
+
 ReactDOM.render(
-    <h4>Hello World React Template</h4>,
+    <App/>,
     document.querySelector('.container')
 );
