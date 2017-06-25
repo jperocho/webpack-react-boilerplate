@@ -1,15 +1,22 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
+import { BrowserRouter } from 'react-router-dom';
 
 const css = require('./app.scss');
 
 // Components
+import MainNav from './components/main-nav';
 import Routes from './routes';
 
 class App extends Component {
   render() {
     return (
-      <Routes />
+      <BrowserRouter>
+        <div>
+          <MainNav />
+          <Routes />
+        </div>
+      </BrowserRouter>
     )
   }
 }
