@@ -3,12 +3,13 @@ import ReactDOM from 'react-dom';
 
 const css = require('./app.scss');
 
+// Components
+import Routes from './routes';
+
 class App extends Component {
   render() {
     return (
-      <div>
-        <h4>Hello World React Template</h4>
-      </div>
+      <Routes />
     )
   }
 }
