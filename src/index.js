@@ -5,9 +5,11 @@ const css = require('./app.scss');
 
 class App extends Component {
   render() {
-    <div>
-      <h4>Hello World React Template</h4>
-    </div>
+    return (
+      <div>
+        <h4>Hello World React Template</h4>
+      </div>
+    )
   }
 }
 
